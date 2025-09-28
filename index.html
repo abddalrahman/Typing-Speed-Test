@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Typing Test</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="typing-test">
+		<div class="name"><p>Typing Speed Test Game</p></div>
+		<div class="container">
+			<div class="message">
+				You Are Testing On
+				<span class="lvl"></span> Level
+				& You Have <span class="seconds"></span> Seconds To Type The Word
+				<select id="level-select">
+					<option value="Easy">Easy</option>
+					<option selected value="Normal">Normal</option>
+					<option value="Hard">Hard</option>
+				</select> 
+			</div>
+			<div class="start">Start Test</div>
+			<div class="the-word"></div>
+			<input type="text" class="input" />
+			<div class="upcoming-words">Words Will Show Here</div>
+			<div class="control">
+				<div class="time">Time Left: <span></span> Seconds</div>
+				<div class="score">
+					Score: <span class="got">0</span> From <span class="total"></span>
+				</div>
+			</div>
+			<div class="finish"></div>
+		</div>
+	</div>
+
+	<script src="js//main.js"></script>
+</body>
+</html>
