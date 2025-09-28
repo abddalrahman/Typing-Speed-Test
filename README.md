@@ -40,8 +40,6 @@ A small-scale web application built using HTML, CSS, and JavaScript, created on 
 - js
   - main.js
 
-Code
-
 ## 🕰️ Project Timeline
 
 - **Start Date**: April 20, 2024
